@@ -1,0 +1,14 @@
+{
+  "header": {
+    "description": "A simple emoji picker that displays all the supported GitHub emojis.",
+    "themeSwitch": {
+      "description": "Switch to your preferred theme and language."
+    }
+  },
+  "footer": {
+    "description": "Created with"
+  },
+  "localeSelector": {
+    "translate": "Translate"
+  }
+}

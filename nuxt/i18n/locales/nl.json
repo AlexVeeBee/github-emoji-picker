@@ -1,0 +1,14 @@
+{
+  "header": {
+    "description": "Een eenvoudige emotie kiezer die alle GitHub emojis toont die worden ondersteund.",
+    "themeSwitch": {
+      "description": "Kies het thema en de taal naar voorkeur."
+    }
+  },
+  "footer": {
+    "description": "Gemaakt met"
+  },
+  "localeSelector": {
+    "translate": "Vertaal"
+  }
+}
