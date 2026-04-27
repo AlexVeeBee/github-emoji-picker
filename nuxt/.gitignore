@@ -1,0 +1,10 @@
+# Nuxt dev/build output
+.nuxt/
+.output/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*

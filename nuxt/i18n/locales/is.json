@@ -1,0 +1,28 @@
+{
+  "header": {
+    "description": "Einfaldur tjáningavelji sem sýnir allar studdar GitHub tjáningar.",
+    "themeSwitch": {
+      "description": "Skiptu yfir í uppáhalds þema og tungumál þitt."
+    }
+  },
+  "footer": {
+    "description": "Búið til með"
+  },
+  "localeSelector": {
+    "translate": "Þýða"
+  },
+  "emojiPicker": {
+    "searchPlaceholder": "Leita að tjáningum…",
+    "categories": {
+      "people": "Fólk & tilfinningar",
+      "nature": "Dýr & náttúra",
+      "foods": "Matur & drykkur",
+      "activity": "Athafnir",
+      "places": "Ferðalög & staðir",
+      "objects": "Hlutir",
+      "symbols": "Tákn",
+      "flags": "Fánar",
+      "github": "GitHub"
+    }
+  }
+}
