@@ -4,7 +4,7 @@
 import { computed, watch } from "vue";
 import { useI18n } from "vue-i18n";
 
-type Mode = "light" | "dark";
+type Mode = "light" | "dark" | "oled" | "hc";
 
 // Module-level state so every component shares the same reactive refs.
 const _mode = ref<Mode>("dark");
@@ -44,7 +44,9 @@ export function useAppSettings() {
   });
 
   function toggleMode() {
-    _mode.value = _mode.value === "dark" ? "light" : "dark";
+    const cycle: Mode[] = ["light", "dark", "oled"];
+    const idx = cycle.indexOf(_mode.value);
+    _mode.value = cycle[(idx + 1) % cycle.length] ?? "light";
   }
 
   async function setLocale(lcl: string) {

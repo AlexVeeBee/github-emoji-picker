@@ -31,6 +31,20 @@ useHead({
   --border: rgba(255, 255, 255, 0.12);
 }
 
+[data-theme="oled"] {
+  --bg: #000000;
+  --surface: #111111;
+  --text: #ffffff;
+  --border: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="hc"] {
+  --bg: #000000;
+  --surface: #000000;
+  --text: #ffffff;
+  --border: #ffffff;
+}
+
 *,
 *::before,
 *::after {

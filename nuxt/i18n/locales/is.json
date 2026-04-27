@@ -10,5 +10,19 @@
   },
   "localeSelector": {
     "translate": "Þýða"
+  },
+  "emojiPicker": {
+    "searchPlaceholder": "Leita að tjáningum…",
+    "categories": {
+      "people": "Fólk & tilfinningar",
+      "nature": "Dýr & náttúra",
+      "foods": "Matur & drykkur",
+      "activity": "Athafnir",
+      "places": "Ferðalög & staðir",
+      "objects": "Hlutir",
+      "symbols": "Tákn",
+      "flags": "Fánar",
+      "github": "GitHub"
+    }
   }
 }

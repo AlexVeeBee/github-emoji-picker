@@ -9,7 +9,7 @@
         </template>
         <EmojiPicker
           :locale="martLocale"
-          :theme="mode === 'dark' ? 'dark' : 'light'"
+          :theme="mode"
           @emoji-select="handleEmojiSelect"
         />
       </ClientOnly>
@@ -25,7 +25,7 @@
 import { computed, onMounted, ref, watch } from "vue";
 import { useAppSettings } from "~/composables/useAppSettings";
 import { parseShortCodes, unifiedToUnicodeEmoji } from "~/utils/utils";
-import type { Emoji } from "~/components/EmojiPicker.vue";
+import type { Emoji } from "~/components/EmojiPicker/index.vue";
 
 // ── Theme / locale ─────────────────────────────────────────────────────────
 const { mode, locale } = useAppSettings();

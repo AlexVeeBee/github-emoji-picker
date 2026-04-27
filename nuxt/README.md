@@ -29,7 +29,13 @@ nuxt/
 ├── pages/
 │   └── index.vue        # Main page (App.tsx equivalent)
 ├── components/
-│   ├── EmojiPicker.vue  # emoji-mart web-component wrapper
+│   ├── EmojiPicker/     # Custom Tailwind-themed emoji picker
+│   │   ├── index.vue    # Orchestrator — emits emoji-select
+│   │   ├── Data.ts      # In-memory emoji index + search
+│   │   ├── Search.vue   # Debounced search input
+│   │   ├── CategoryTabs.vue  # Horizontal category tab bar
+│   │   ├── Grid.vue     # Emoji grid (skin-tone aware)
+│   │   └── SkinTonePicker.vue  # Fitzpatrick skin-tone selector
 │   ├── Header.vue
 │   ├── Footer.vue
 │   ├── Loading.vue
@@ -50,6 +56,7 @@ nuxt/
 │   │   ├── nl.json
 │   │   └── is.json
 │   └── i18n.config.ts     # vue-i18n runtime config (legacy: false)
+├── tailwind.config.ts     # Tailwind + oled:/hc: variants + oled-* palette
 ├── nuxt.config.ts
 └── package.json
 ```
@@ -72,4 +79,4 @@ nuxt/
 | Shift-key copy swap | ✅ | ✅ same |
 | Snackbar queue | MUI Snackbar + `snackPack` | ✅ same logic |
 | i18n | react-i18next | @nuxtjs/i18n (vue-i18n) |
-| Emoji picker | @emoji-mart/react | @emoji-mart/vue |
+| Emoji picker | @emoji-mart/react | Custom Tailwind Vue 3 SFC |

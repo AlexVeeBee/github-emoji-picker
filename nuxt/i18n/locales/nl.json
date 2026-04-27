@@ -10,5 +10,19 @@
   },
   "localeSelector": {
     "translate": "Vertaal"
+  },
+  "emojiPicker": {
+    "searchPlaceholder": "Zoek emojis…",
+    "categories": {
+      "people": "Mensen & Emotie",
+      "nature": "Dieren & Natuur",
+      "foods": "Eten & Drinken",
+      "activity": "Activiteiten",
+      "places": "Reizen & Plaatsen",
+      "objects": "Objecten",
+      "symbols": "Symbolen",
+      "flags": "Vlaggen",
+      "github": "GitHub"
+    }
   }
 }

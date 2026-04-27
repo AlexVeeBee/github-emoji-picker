@@ -10,5 +10,19 @@
   },
   "localeSelector": {
     "translate": "Translate"
+  },
+  "emojiPicker": {
+    "searchPlaceholder": "Search emojis…",
+    "categories": {
+      "people": "People & Emotion",
+      "nature": "Animals & Nature",
+      "foods": "Food & Drink",
+      "activity": "Activities",
+      "places": "Travel & Places",
+      "objects": "Objects",
+      "symbols": "Symbols",
+      "flags": "Flags",
+      "github": "GitHub"
+    }
   }
 }

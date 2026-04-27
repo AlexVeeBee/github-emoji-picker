@@ -41,7 +41,7 @@
     </div>
 
     <div class="header__controls">
-      <ThemeSwitch :checked="mode !== 'dark'" @toggle="toggleMode" />
+      <ThemeSwitch :mode="mode" @toggle="toggleMode" />
       <LocaleSelector />
     </div>
 

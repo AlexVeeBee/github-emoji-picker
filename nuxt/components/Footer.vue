@@ -3,11 +3,11 @@
     <small>
       {{ t("footer.description") }}
       <a
-        href="https://github.com/missive/emoji-mart"
+        href="https://github.com/AlexVeeBee/github-emoji-picker"
         target="_blank"
         rel="noreferrer"
       >
-        emoji-mart 🏪
+        GitHub Emoji Picker 🐙
       </a>
       .
     </small>
